@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseUrl = "http://localhost:3001/music";
+const baseUrl = "http://localhost:3001/keikat";
 
 const getAll = () =>  {
     const request = axios.get(baseUrl)

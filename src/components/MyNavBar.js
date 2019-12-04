@@ -1,15 +1,15 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import '../App.css';
 import {Navbar, Form, NavDropdown, Nav, FormControl, Button} from 'react-bootstrap';
-const MyNavBar = ({links}) =>{
+const MyNavBar = ({links, old, setOld}) =>{
     return(
         <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
+            <Nav.Link onSelect={e => setOld (true) } href="/old">Tulevat keikat</Nav.Link>
+            <Nav.Link onSelect={e => setOld (false) } href="/new">Menneet keikat</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                 {links.map(link => <NavDropdown.Item href={link}>{link}</NavDropdown.Item>)}
                 <NavDropdown.Divider />

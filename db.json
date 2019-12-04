@@ -1,0 +1,74 @@
+{
+  "keikat": [
+    {
+      "id": 1,
+      "artisti": "MetalMans",
+      "tapahtuma": "Music Festival",
+      "mainoskuva": "kuva.jpg",
+      "kuvaus": "Verrry good baand",
+      "pvm": "2019-11-11",
+      "aika": "14:00",
+      "osoite": "Kuutamokatu 18",
+      "paikkakunta": "Tampere",
+      "lippulinkki": "https://osta.fi/MetalMans",
+      "genre": "Metal",
+      "artistilinkki": "https://MetalMans.fi"
+    },
+    {
+      "id": 2,
+      "artisti": "LongRoads",
+      "tapahtuma": "BigFest",
+      "mainoskuva": "kuva2.jpg",
+      "kuvaus": "Okey band",
+      "pvm": "2020-1-21",
+      "aika": "20:00",
+      "osoite": "Countryroad 360",
+      "paikkakunta": "London",
+      "lippulinkki": "https://osta.fi/LongRoads",
+      "genre": "Country",
+      "artistilinkki": "https://LongRoads.com"
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
