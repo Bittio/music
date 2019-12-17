@@ -4,7 +4,7 @@
       "id": 1,
       "artisti": "MetalMans",
       "tapahtuma": "Music Festival",
-      "mainoskuva": "kuva.jpg",
+      "mainoskuva": "https://upload.wikimedia.org/wikipedia/commons/3/38/Circus_Maximus_-_Norwegian_prog_metal_band.jpg",
       "kuvaus": "Verrry good baand",
       "pvm": "2019-11-11",
       "aika": "14:00",
@@ -15,60 +15,32 @@
       "artistilinkki": "https://MetalMans.fi"
     },
     {
-      "id": 2,
-      "artisti": "LongRoads",
-      "tapahtuma": "BigFest",
-      "mainoskuva": "kuva2.jpg",
-      "kuvaus": "Okey band",
-      "pvm": "2020-1-21",
-      "aika": "20:00",
-      "osoite": "Countryroad 360",
-      "paikkakunta": "London",
-      "lippulinkki": "https://osta.fi/LongRoads",
-      "genre": "Country",
-      "artistilinkki": "https://LongRoads.com"
+      "artisti": "tyshghg",
+      "tapahtuma": "fgdhfd",
+      "mainoskuva": "https://upload.wikimedia.org/wikipedia/commons/7/75/Instinct_%28pop-rock_music_band%29.jpg",
+      "kuvaus": "hjgfjhjf",
+      "pvm": "2020-01-24",
+      "aika": "20:20",
+      "osoite": "dsyfgasasd",
+      "paikkakunta": "asdfasf",
+      "lippulinkki": "https://osta.fi/sa.com",
+      "genre": "Pop",
+      "artistilinkki": "sa.com",
+      "id": 12
+    },
+    {
+      "artisti": "Sama bandi",
+      "tapahtuma": "dsfasaf",
+      "mainoskuva": "https://upload.wikimedia.org/wikipedia/commons/7/75/Instinct_%28pop-rock_music_band%29.jpg",
+      "kuvaus": "fdgdfg",
+      "pvm": "2019-01-24",
+      "aika": "23:30",
+      "osoite": "dgdf",
+      "paikkakunta": "Tampere",
+      "lippulinkki": "https://osta.fi/jsdaodhajks",
+      "genre": "za",
+      "artistilinkki": "jsdaodhajks.com",
+      "id": 13
     }
   ]
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

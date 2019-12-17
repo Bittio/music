@@ -8,8 +8,9 @@ const MyNavBar = ({links, old, setOld}) =>{
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-            <Nav.Link onSelect={e => setOld (true) } href="/old">Tulevat keikat</Nav.Link>
-            <Nav.Link onSelect={e => setOld (false) } href="/new">Menneet keikat</Nav.Link>
+            <Nav.Link onSelect={e => setOld (true) } href="/old">Menneet keikat</Nav.Link>
+            <Nav.Link onSelect={e => setOld (false) } href="/new">Tulevat keikat</Nav.Link>
+            <Nav.Link onSelect={e => setOld (false) } href="/lisaakeikka">Lisää keikka</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                 {links.map(link => <NavDropdown.Item href={link}>{link}</NavDropdown.Item>)}
                 <NavDropdown.Divider />

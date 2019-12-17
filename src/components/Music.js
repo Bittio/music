@@ -2,7 +2,9 @@ import React from 'react';
 import '../App.css';
 const Musics = ({myMusic}) =>{
     return (
+
         <div className="column">
+
             <h2>{myMusic.artisti} - {myMusic.tapahtuma}</h2>
             <img src= {myMusic.mainoskuva}></img>     
             <p>{myMusic.kuvaus}</p>
@@ -12,6 +14,7 @@ const Musics = ({myMusic}) =>{
             <a href= {myMusic.artistilinkki}>Artistin sivut</a>
             <br></br>
             <a href= {myMusic.lippulinkki}>Liput</a>
+        
         </div> 
     )
 }
@@ -19,6 +22,7 @@ const Musics = ({myMusic}) =>{
 const Music = ({myMusic, setMusic}) =>{
     console.log("ready", myMusic);
     return (
+
         <div className="App">
             <div className="part">
                 <ul className="music">
